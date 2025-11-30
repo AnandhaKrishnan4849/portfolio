@@ -1,0 +1,40 @@
+header{ 
+    background-color: #070B14;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+}
+
+.header-name{
+    padding-left: 200px;
+}
+
+.header-right{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    padding-right: 200px;
+}
+
+.header-right a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+
+    .header-right{
+        display: none;
+    }
+
+    .header-name{
+        padding-left: 16px;
+    }
+}

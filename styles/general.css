@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background-color: #050816;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+    
+    main{
+        padding-top: 80px;
+    }
+
+    section{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}

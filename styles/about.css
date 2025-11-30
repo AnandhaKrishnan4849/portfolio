@@ -1,0 +1,30 @@
+.about{
+    scroll-margin-top: 100px;
+    padding: 40px 200px;
+    background-color: #050816;
+}
+
+.about-page{
+    max-width: 900px;
+}
+
+.about h1{
+    color: #FACC6B;  
+}
+
+.about p{
+    color: #D1D5DB;
+    line-height: 26px;
+}
+
+@media (max-width: 768px) {
+
+    .about-page{
+        max-width: 100%;
+    }
+
+    .about p{
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}

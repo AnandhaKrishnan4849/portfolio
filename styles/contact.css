@@ -1,0 +1,135 @@
+.contact{
+    scroll-margin-top: 100px;
+    padding: 40px 200px;
+    background-color: #050816;
+}
+
+.contact h1{
+    color: #FACC6B;
+    margin-bottom: 24px;
+}
+
+.contact-page{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info{
+    flex: 1 1 300px;
+    border: 1px solid rgba(250, 204, 107, 0.35);
+    border-radius: 12px;
+    padding: 18px 20px;
+    background: radial-gradient(circle at top, #111827 0%, #020617 60%, #050816 100%);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    color: #F9FAFB;
+}
+
+.contact-info h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #FACC6B;
+}
+
+.contact-info p{
+    font-size: 14px;
+    color: #D1D5DB;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.contact-info ul{
+    list-style-type: disc;
+    padding-left: 18px;
+    margin: 0 0 14px 0;
+}
+
+.contact-info li{
+    font-size: 14px;
+    color: #9CA3AF;
+    margin-bottom: 6px;
+}
+
+.whatsapp-btn{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: 1px solid #25D366;
+    color: #25D366;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.whatsapp-btn:hover{
+    background-color: #25D366;
+    color: #111827;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.contact-form{
+    flex: 1 1 340px;
+    border: 1px solid rgba(250, 204, 107, 0.35);
+    border-radius: 12px;
+    padding: 18px 20px;
+    background: radial-gradient(circle at top, #111827 0%, #020617 60%, #050816 100%);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.contact-form h3{
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #FACC6B;
+}
+
+.form-group{
+    margin-bottom: 12px;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(250, 204, 107, 0.35);
+    background-color: #020617;
+    color: #F9FAFB;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+    color: #9CA3AF;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    border-color: #FACC6B;
+}
+
+.contact-submit-btn{
+    margin-top: 8px;
+    padding: 10px 22px;
+    border-radius: 999px;
+    border: 1px solid #FACC6B;
+    background-color: transparent;
+    color: #FACC6B;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contact-submit-btn:hover{
+    background-color: #FACC6B;
+    color: #111827;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+
+    .contact-page{
+        flex-direction: column;
+        gap: 24px;
+    }
+}

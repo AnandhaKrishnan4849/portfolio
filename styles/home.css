@@ -1,0 +1,128 @@
+.home{
+    scroll-margin-top: 100px;
+    padding: 0 200px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-name{
+    font-size: 20px;
+    color: #F9FAFB;
+    margin-bottom: 0%;
+}
+
+.home-role{
+    color: #9CA3AF;
+    font-size: 12px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.home-intro{
+    color: #D1D5DB;
+    width: 600px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.project-btn,
+.contact-btn{
+    background-color: #FACC6B;
+    color: #111827;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.35);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.project-btn:hover,
+.contact-btn:hover{
+    background-color: #EAB308;
+    color: #050816;
+}
+
+.project-btn:active,
+.contact-btn:active{
+    background-color: #CA8A04;
+    color: #050816;
+}
+
+.home-link{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.home-link a{
+    color: #FACC6B;
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.home-link a:hover{
+    color: #EAB308;
+}
+
+.home-link p{
+    display: inline;
+    color: #D1D5DB;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.home-right{
+    display: flex;
+}
+
+.home-profile-picture{
+    height: 240px;
+    border-radius: 50%;
+    margin-right: 140px;
+    margin-top: 20px;
+    box-shadow:
+        0 0 25px rgba(250, 204, 107, 0.45),
+        0 0 60px rgba(250, 204, 107, 0.25),
+        0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.highlight-name{
+    color: #FACC6B;
+}
+
+.highlight-text{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+    .home{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-intro{
+        width: 100%;
+    }
+
+    .home-right{
+        margin-top: 24px;
+    }
+
+    .home-profile-picture{
+        margin-right: 0;
+        height: 180px;
+    }
+
+    .home-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+}
